@@ -20,5 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A react front end for a web shop",
+  "main": "index.js",
+  "author": "Sayantan Talukder",
+  "license": "MIT"
 }
