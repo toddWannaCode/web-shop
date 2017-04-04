@@ -1,0 +1,23 @@
+{
+  "name": "web-shop",
+  "version": "1.0.0",
+  "description": "A React front-end for an ecommerce store",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "keywords": [
+    "e-com",
+    "web",
+    "store",
+    "react",
+    "redux",
+    "react-bootstrap"
+  ],
+  "author": "Sayantan Talukder",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
