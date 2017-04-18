@@ -3,7 +3,9 @@ import { Nav, NavItem, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router';
 import { LinkContainer } from 'react-router-bootstrap';
 
-const Menu = () =>  {(
+class Menu extends React.Component{ 
+    render() { 
+        return (
             <Navbar inverse fixedTop>
                 <Navbar.Header>
                     <Navbar.Brand>
@@ -13,7 +15,7 @@ const Menu = () =>  {(
                 </Navbar.Header>
                 <Navbar.Collapse>
                 <Nav>
-                    <LinkContainer eventKey={1} to="/company">
+                    <LinkContainer eventKey={1} to="/about">
                         <Button bsStyle="link">
                             About
                         </Button>
@@ -33,6 +35,7 @@ const Menu = () =>  {(
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        )};
-
+        )}
+    };
+Menu.defaultProps = { cart: [] };
 export default Menu;
